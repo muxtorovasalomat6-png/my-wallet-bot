@@ -19,4 +19,5 @@ jobs:
       - name: Install dependencies
         run: pip install aiogram pandas openpyxl matplotlib
       - name: Run Bot
+
         run: python main.py
